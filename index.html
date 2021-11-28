@@ -1,15 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
-  <title>My project</title>
+  <title>Rotating Navigation</title>
 </head>
+
 <body>
-  <h1>Project Starter</h1>
+  <div class="container">
+    <div class="circle-container">
+      <div class="circle">
+        <button id="close">
+          <i class="fas fa-times"></i>
+        </button>
+        <button id="open">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="content">
+      <h1>Amazing Article</h1>
+      <small>Florin Pop</small>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti tenetur similique consequatur praesentium
+        quis dolor modi obcaecati accusamus exercitationem molestiae quia, mollitia sunt qui voluptates quisquam ratione
+        nulla, quo cum eos nemo expedita cupiditate accusantium ut. Laboriosam rerum numquam perferendis cupiditate,
+        exercitationem rem nesciunt natus minus ad, est culpa sit praesentium iure! Ipsam corrupti quos nihil quas
+        minima sequi optio, sapiente error dignissimos rerum debitis, harum maiores. Ipsam modi odit molestiae nemo
+        illum voluptate similique. Quisquam commodi ab recusandae? Accusamus eum est eaque ipsum repellat culpa corrupti
+        officiis illum? Cumque, libero facere! Facere blanditiis aperiam atque iure, autem sint magni!</p>
+      <h3>My Dog</h3>
+      <img
+        src="https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        alt="dog">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam illo debitis repellendus ipsa sapiente
+        voluptate similique. Natus non optio, quo quos ullam, ex voluptas doloribus, sint ut eligendi asperiores
+        mollitia facere sequi. Ducimus inventore, error perferendis ipsum aspernatur illo molestias!</p>
+    </div>
+  </div>
+  <nav>
+    <ul>
+      <li><i class="fas fa-home"></i>Home</li>
+      <li><i class="fas fa-user-alt"></i>About</li>
+      <li><i class="fas fa-envelope"></i>Contact</li>
+    </ul>
+  </nav>
+
   <script src="script.js"></script>
 </body>
+
 </html>
