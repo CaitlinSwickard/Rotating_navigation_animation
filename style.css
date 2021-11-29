@@ -54,6 +54,7 @@ transform: rotate(-70deg);
   left: 50%;
   height: 100px;
   background: transparent;
+  border: 0;
   font-size: 26px;
   color: #fff;
 }
@@ -61,7 +62,7 @@ transform: rotate(-70deg);
 .circle button:focus {
   outline: none;
 }
-
+ 
 .circle button#open {
   left: 60%;
 }
