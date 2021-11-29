@@ -41,7 +41,10 @@ transform: rotate(-20deg);
   border-radius: 50%;
   position: relative;
   transition: transform 0.5s linear;
+}
 
+.container.show-nav .circle {
+transform: rotate(-70deg);
 }
 
 .circle button {
@@ -67,6 +70,11 @@ transform: rotate(-20deg);
   top: 60%;
   transform: rotate(90deg);
   transform-origin: top left;
+}
+
+.container.show-nav + nav li {
+  transform: translateX(0);
+  transition-delay: 0.3s;
 }
 
 /* navigation under rotation */
