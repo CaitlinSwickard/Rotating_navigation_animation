@@ -1,6 +1,6 @@
 # Rotating Navigation Animation
 
-For this project I built a simple article or blog page. The animation for this project happens when a user clicks the navigation selection (hamburger button) in the top left corner. From there the page rotates and flips up to reveal the hidden navigation links. This project is a fun replacement for a navbar in a simple web page.
+For this project I built a simple article/blog page. The animation for this project happens when a user clicks the navigation selection (hamburger button) in the top left corner. From there the page rotates and flips up to reveal the hidden navigation links. This project is a fun replacement for a navbar in a simple web page.
 
 [View deployed page here](https://caitlinswickard.github.io/Rotating_navigation_animation/)
 - [Installation](#install)
